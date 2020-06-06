@@ -50,7 +50,7 @@ function animateWrong() {
 }
 
 
-$(document).keydown(function(){
+$("h1").click(function(){
   if (started === false) {
     nextSequence();
     started = true;
